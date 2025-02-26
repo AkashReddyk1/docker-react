@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
@@ -7,7 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+           You are a dumb and not useful to anyone.
+           You are fit for nothing.
+           You are a waste of space.
+           You are a waste of time.
+           You are a waste of money.
+           You are a waste of energy.
+           You are a waste of resources.d
+           You are a waste of everything.
+           You need to adapt.
         </p>
         <a
           className="App-link"
