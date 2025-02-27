@@ -1,11 +1,9 @@
-sudo : required
+sudo: required
 services:
   - docker  # Required to run docker commands
-
 
 before_install:
   - docker build -t simplefrontend -f Dockerfile.dev .
 
-  
 script:
-  - docker run simplefrontend npm run test -- --coverage 
+  - docker run -e CI=true simplefrontend npm run test -- --coverage
